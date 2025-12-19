@@ -2,9 +2,17 @@ package h2;
 
 public class Passenger {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+    String name;
+    int planned;
+    int visited;
+    boolean ticket;
 
-	}
-
+    public Passenger(String name, int planned, boolean ticket) {
+        this.name = name;
+        this.planned = planned;
+        this.ticket = ticket;
+        this.visited = 0;
+    }
 }
+
+
